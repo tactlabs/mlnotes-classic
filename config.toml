@@ -1,0 +1,23 @@
+baseURL = "https://tactii.com/"
+languageCode = "en-us"
+title = "Tact Labs"
+theme = "berbera"
+
+pygmentsCodeFences=true
+pygmentsUseClasses=true
+canonifyURLs=true
+publishDir="docs"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["RSS"]
+
+# Allows raw HTML to render in markdown content files.
+# Used to add linked images (i.e. flashcard images)
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+  description = "Machine Learning Tutorials"
+
