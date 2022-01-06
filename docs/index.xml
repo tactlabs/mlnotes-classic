@@ -1,21 +1,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tact Labs</title>
-    <link>https://tactii.com/</link>
+    <link>https://tactlabs.github.io/mlnotes/</link>
     <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-        <atom:link href="https://tactii.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tactlabs.github.io/mlnotes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test</title>
-      <link>https://tactii.com/test/</link>
+      <title>add-a-new-column</title>
+      <link>https://tactlabs.github.io/mlnotes/add-a-new-column/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tactii.com/test/</guid>
-      <description>print &amp;lt;function print&amp;gt;  a = 10 a 10  EEEE TactLabs</description>
+      <guid>https://tactlabs.github.io/mlnotes/add-a-new-column/</guid>
+      <description>import pandas as pd data = { &amp;#39;city&amp;#39; : [&amp;#39;Toronto&amp;#39;, &amp;#39;Montreal&amp;#39;, &amp;#39;Waterloo&amp;#39;], &amp;#39;points&amp;#39; : [80, 70, 90] } data {&#39;city&#39;: [&#39;Toronto&#39;, &#39;Montreal&#39;, &#39;Waterloo&#39;], &#39;points&#39;: [80, 70, 90]}  type(data) dict  df = pd.DataFrame(data) df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  
+  city points     0 Toronto 80   1 Montreal 70   2 Waterloo 90     df = df.</description>
+    </item>
+    
+    <item>
+      <title>advanced-custom-lambda</title>
+      <link>https://tactlabs.github.io/mlnotes/advanced-custom-lambda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tactlabs.github.io/mlnotes/advanced-custom-lambda/</guid>
+      <description>import numpy as np import pandas as pd # Check the student passed either math or passed at least in 2 subjects. If no condidition matched, consider them as failed def pass_math_or_two_subjects(row): if(row.maths &amp;gt; 34): return &amp;#39;Pass&amp;#39; if(row.language &amp;gt; 34 and row.science &amp;gt; 34): return &amp;#39;Pass&amp;#39; return &amp;#39;Fail&amp;#39; df = pd.read_csv(&amp;#39;abc.csv&amp;#39;) df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }</description>
+    </item>
+    
+    <item>
+      <title>base</title>
+      <link>https://tactlabs.github.io/mlnotes/base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tactlabs.github.io/mlnotes/base/</guid>
+      <description>a = 10 a 10  </description>
     </item>
     
   </channel>

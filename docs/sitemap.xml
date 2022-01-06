@@ -2,8 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tactii.com/</loc>
+    <loc>https://tactlabs.github.io/mlnotes/add-a-new-column/</loc>
   </url><url>
-    <loc>https://tactii.com/test/</loc>
+    <loc>https://tactlabs.github.io/mlnotes/advanced-custom-lambda/</loc>
+  </url><url>
+    <loc>https://tactlabs.github.io/mlnotes/base/</loc>
+  </url><url>
+    <loc>https://tactlabs.github.io/mlnotes/</loc>
   </url>
 </urlset>
